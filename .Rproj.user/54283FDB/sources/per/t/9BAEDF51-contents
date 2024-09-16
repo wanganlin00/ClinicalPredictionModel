@@ -3,18 +3,23 @@ project:
   output-dir: _docs
 
 book:
-  title: "Propensity Score"
+  title: "Clinical Prediction Model"
   date: today
   chapters:
     - index.qmd
-    - part: PropensityScore.qmd
-      chapters:
-        - PSM.qmd
-        - matching.qmd
-        - stratification.qmd
-        - weighting.qmd
-        # - covariate_adjustment.qmd
-        - SensitivityAnalysis.qmd
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 execute:
@@ -38,10 +43,12 @@ knitr:
     comment: "#>" 
     collapse: TRUE
 
+
+
+bibliography: references.bib
+
 format:
   html:
     theme: cosmo
-
-
 editor: visual
 
